@@ -1,3 +1,9 @@
+## Dossier de compilation
+out/
+
+## fichiers temporaires
+*.swp
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
