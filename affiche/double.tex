@@ -1,0 +1,14 @@
+\documentclass{scrartcl}
+\usepackage{pdfpages}
+\usepackage[top=0cm,bottom=0cm,margin=0cm]{geometry}
+\begin{document}
+\includepdf[%
+	pages=-,
+	% scale=1.05
+	]{out/affiche.pdf}
+\includepdf[%
+	pages=-,
+	angle=90,
+	scale=1.01
+	]{out/GrilleVendeur.pdf}
+\end{document}
