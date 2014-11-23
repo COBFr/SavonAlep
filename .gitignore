@@ -1,3 +1,6 @@
+## Dossier de compilation
+out/
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
