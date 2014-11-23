@@ -22,15 +22,26 @@
 
 % Configuration {{{1
 \setlength{\tabcolsep}{2pt}
-\renewcommand{\arraystretch}{1.92}
 
 \begin{document}%{{{1
 \setlength{\parindent}{0pt}
+\begin{tabular}{p{9cm}p{9cm}p{9cm}}
+	- Cycle d'Orientation du belluard &
+	Vente de savon d'Alep 7.- pièce &
+	vendeur: \hrulefill.
+	 Classe: \makebox[1cm]{\hrulefill}\\
+	- Passerelle Suisse Syrie &
+	Le Montant est encaissé à la réception des savons & \\
+	Date limite pourla commande: ven 5 décembre 2014 &
+	Date limite pour la livraison: ven 19 décembre 2014 \\
+\end{tabular}
 \vspace*{\fill}
+
+\renewcommand{\arraystretch}{1.92}
 \newcommand\ttitt[1]{\multicolumn{1}{|c|}{\rule{0pt}{12pt}{\bfseries\LARGE #1}}}
 \newcommand\ttit[1]{\multicolumn{1}{c|}{\rule{0pt}{12pt}{\bfseries\LARGE #1}}}
 \newcommand\tnum[1]{\makebox[3ex][r]{#1.} & & & & &\\\hline}
-	\begin{tabular}{|p{7cm}|p{10cm}|p{.8cm}|p{1.5cm}|p{4cm}|p{4cm}|}
+\begin{tabular}{|p{7cm}|p{10cm}|p{.8cm}|p{1.5cm}|p{4cm}|p{4cm}|}
 	\hline
 	\ttitt{Nom} & \ttit{Adresse} & \ttit{Nb.} & \ttit{Prix} & \ttit{Sign. commande} & \ttit{Sign. Réception} \\\hline
 	\tnum{1}\tnum{2}\tnum{3}\tnum{4}\tnum{5}\tnum{6}\tnum{7}\tnum{8}\tnum{9}\tnum{10}\tnum{11}\tnum{12}\tnum{13}
