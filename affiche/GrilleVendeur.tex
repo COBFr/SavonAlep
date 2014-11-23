@@ -1,0 +1,33 @@
+% entête {{{1
+\documentclass[8pt,a4paper]{scrartcl}	% Type de document
+\usepackage[french]{babel}				% Titres en français
+\usepackage[T1]{fontenc}				% Correspondance clavier -> document
+\usepackage[utf8]{inputenc}			% Gestion de l'unicode
+\usepackage{xspace}						% gestions de l'espace après une macro
+\usepackage{array}						% Tableau avancé
+\usepackage{multirow}					% Assemblage de ligne pour les tableaux
+\usepackage{graphicx}					% Modification de texte
+
+\usepackage[%
+	noheadfoot,
+	landscape=true,
+	portrait=false,
+	left=6mm,
+	right=6mm,
+	top=11mm,
+	bottom=8mm,
+	]{geometry}
+
+\pagestyle{empty}
+
+% Configuration {{{1
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.12}
+
+\begin{document}%{{{1
+\vspace*{\fill}
+\begin{center}
+test
+
+\end{center}
+\end{document}
