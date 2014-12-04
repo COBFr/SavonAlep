@@ -1,0 +1,46 @@
+% entête {{{1
+\documentclass[9pt,a4paper]{scrartcl}	% Type de document
+\usepackage[T1]{fontenc}\usepackage[utf8]{inputenc}
+\usepackage{xspace}
+
+\usepackage[%
+	noheadfoot,
+	landscape=true,
+	portrait=false,
+	left=6mm,
+	right=6mm,
+	top=11mm,
+	bottom=8mm,
+	]{geometry}
+
+\usepackage[french]{babel}
+\pagestyle{empty}
+
+% Configuration {{{1
+\setlength{\tabcolsep}{2pt}
+
+\begin{document}%{{{1
+\setlength{\parindent}{0pt}
+\vspace*{\fill}
+\begin{tabular}{p{6cm}p{8cm}p{13.7cm}}
+	- Cycle d'Orientation du belluard &
+		Vente de savon d'Alep 7.- pièce &
+		vendeur: \hrulefill.
+		 Classe: \makebox[1cm]{\hrulefill}\\
+	- Passerelle Suisse Syrie &
+		Le Montant est encaissé à la réception des savons &
+		 Dates limites: \emph{commande} ven. 12 décembre 2014; \emph{livraison} ven. 19 décembre 2014 \\
+\end{tabular}
+\vspace*{\fill}
+
+\renewcommand{\arraystretch}{1.92}
+\newcommand\ttitt[1]{\multicolumn{1}{|c|}{{\bfseries\large #1}}}
+\newcommand\ttit[1]{\multicolumn{1}{c|}{{\bfseries\large #1}}}
+\newcommand\tnum[1]{\makebox[3ex][r]{#1.} & & & & &\\\hline}
+\begin{tabular}{|p{7cm}|p{10cm}|p{.8cm}|p{1.5cm}|p{4cm}|p{4cm}|}
+	\hline
+	\ttitt{Nom} & \ttit{Adresse} & \ttit{Nb.} & \ttit{Prix} & \ttit{Sign. commande} & \ttit{Sign. Réception} \\\hline
+	\tnum{1}\tnum{2}\tnum{3}\tnum{4}\tnum{5}\tnum{6}\tnum{7}\tnum{8}\tnum{9}\tnum{10}\tnum{11}\tnum{12}\tnum{13}
+	\tnum{14}\tnum{15}\tnum{16}\tnum{17}\tnum{18}\tnum{19}\tnum{20}\tnum{21}\tnum{22}\tnum{23}
+\end{tabular}
+\end{document}
